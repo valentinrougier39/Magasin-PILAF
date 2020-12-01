@@ -1,6 +1,6 @@
 # Magasin-PILAF
-Projet réalisé au cours du Projet Tutoré de première année de DUT Informatique. 
-Ce projet nous a permis d'appréhender le travail de groupe mais aussi la gestion d'un projet. 
+Projet réalisé au cours du second semestre de DUT Informatique. 
+Ce projet a été élaboré tout d'abord dans le module de gestion de projet avant d'être poursuivi et finalisé lors de notre projet tutoré de première année.
 
 Projet réalisé en collaboration avec Antoine DROUAL, Jean LAURENT, Thomas MARTY 
 
