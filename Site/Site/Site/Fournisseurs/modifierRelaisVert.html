@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="../css/skeleton.css">
+    <link rel="stylesheet" type="text/css" href="./css/style-fournisseurs.css">
+    <link rel="stylesheet" href="../css/style-menu.css">
+
+    <title>Fournisseur RELAIS VERT</title>
+  </head>
+  <body>
+    <div class="container menubar">
+      <nav>
+        <ul>
+          <li><a href="../index.html"><img src="../Logo/logo_V3.jpg" alt="logoimg" class="logoimg"> </a></li>
+          <li><a href="index.html"><img src="../images\truck-solid.svg" alt="fournisseurs" class="icone" fill=> <br><p>Fournisseurs</p></a></li>
+          <li><a href="../Stock/index.html"><img src="../images\cubes-solid.svg" alt="articles" class="icone"> <br><p>Stock</p></a></li>
+          <li><a href="../Comptabilite/index.html"><img src="../images\file-invoice-solid.svg" alt="factures" class="icone"><br><p>Comptabilité</p></a></li>
+          <li><a href="../Client/creer.html"><img src="../images\users-solid.svg" alt="clients" class="icone"><br><p>Clients</p></a></li>
+          <li><a href="../Horaires/index.html"><img src="../images\clock-regular.svg" alt="horaires" class="icone"><br><p>Horaires</p></a></li>
+          <li><a href="../Statistiques/index.html"><img src="../images\chart-line-solid.svg" alt="statistiques" class="icone"> <br><p>Statistiques</p></a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="container fournisseur">
+      <div class="row haut">
+        <div class="titre">
+          <div class="two columns">
+            <a class="retour" href="afficherRelaisVert.html"><img src="../images/retour.png" alt="retour"></a>
+          </div>
+          <div class="eight columns">
+            <h1>Modifier un fournisseur</h1>
+          </div>
+          <div class="one columns">
+              <a class="supprimer" title="supprimer" href="#"><img src="../images/delete.png" alt="edit"></a>
+          </div>
+        </div>
+        <form action="afficherRelaisVert.html" method="POST">
+        <div class="row">
+          <div class="one-third column logofournisseur">
+            <label for="file" class="">
+              <input id="file" type="file" name="logo" value="logo">
+              <img class="logo " src="../images/LogoFournisseur/test_relaisVert.png" alt="">
+            </label>
+          </div>
+          <div class="seven columns labels">
+            <label>Nom</label><input class="u-full-width" type="text" name="" value="RELAIS VERT" required>
+            <label>Site Web</label><input class="u-full-width" type="text" name="" value="www.relais-vert.com" required>
+          </div>
+        </div>
+      </div>
+      <div class="row coordonnees">
+        <h2>Coordonnées</h2>
+        <div class="five columns">
+          <label>Téléphone</label><input class="u-full-width" type="tel" name="" value="0490672372" required pattern="[0-9]{10}">
+          <label>Mail</label><input class="u-full-width" type="email" name=""  value="contact@vert.fr"required>
+        </div>
+        <div class="five columns">
+          <label>Fax</label><input class="u-full-width" type="text" name="" value="0490605291" required pattern="[0-9]{10}">
+          <label>N°SIREN</label><input class="u-full-width" type="text" name="" value="352867493" required pattern="[0-9]{9}">
+        </div>
+      </div>
+      <div class="row localisation">
+        <h2>Localisation</h2>
+        <div class="ten columns">
+          <label>Adresse</label><input class="u-full-width" type="text" name="" value="621 Allée Bellecour" required>
+          <label>Ville</label><input class="u-full-width" type="text" name="" value="CARPENTRAS" required pattern="[A-Za-z-]+">
+          <label>Code Postal</label><input class="u-full-width" type="text" name="" value="84200" required pattern="[0-9]{5}">
+          <label>Pays</label><input class="u-full-width" type="text" name="" value="FRANCE" required pattern="[A-Za-z]*">
+        </div>
+      </div>
+      <div class="row contact">
+        <h2>Contact interne</h2>
+        <div class="five columns">
+          <label>Nom</label><input class="u-full-width" type="text" name="" value="LAURENT" >
+        </div>
+        <div class="five columns">
+          <label>Prénom</label><input class="u-full-width" type="text" name="" value="Jean" >
+        </div>
+        <div class="ten columns">
+          <label>Fonction</label><input class="u-full-width" type="text" name="" value="Commercial">
+        </div>
+      </div>
+      <div class="row banque">
+        <h2>Banque</h2>
+        <div class="ten columns">
+          <label>Titulaire du compte</label><input class="u-full-width" type="text" name="" value="RELAIS VERT" required >
+          <label>Nom de la Banque</label><input class="u-full-width" type="text" name="" value="CREDIT AGRICOLE" required>
+          <label>IBAN</label><input class="u-full-width" type="text" name="" value="FR4612345678912345678912789" required pattern="[A-Z]{2}[0-9]{12,32}">
+          <label>BIC</label><input class="u-full-width" type="text" name="" value="AGRIFRPP" required pattern="[A-Z]{6}[A-Z0-9]{2,5}">
+        </div>
+      </div>
+      <div class="row commentaires">
+        <h2>Commentaires</h2>
+        <div class="ten columns">
+          <textarea name="text" class="u-full-width"></textarea>
+          <input class="button" type="submit" value="Valider les modifications">
+        </div>
+      </section>
+    </div>
+  </form>
+  </body>
+</html>

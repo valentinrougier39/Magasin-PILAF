@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+
+        <link rel="stylesheet" href="../css/normalize.css">
+        <link rel="stylesheet" href="../css/skeleton.css">
+        <link rel="stylesheet" type="text/css" href="css/style-client.css">
+        <link rel="stylesheet" href="../css/style-menu.css">
+    <title>Créer un client</title>
+  </head>
+  <body>
+    <div class="container menubar">
+      <nav>
+        <ul>
+          <li><a href="../index.html"><img src="../Logo/logo_V3.jpg" alt="logoimg" class="logoimg"> </a></li>
+          <li><a href="../Fournisseurs/index.html"><img src="../images\truck-solid.svg" alt="fournisseurs" class="icone" fill=> <br><p>Fournisseurs</p></a></li>
+          <li><a href="../Stock/index.html"><img src="../images\cubes-solid.svg" alt="articles" class="icone"> <br><p>Stock</p></a></li>
+          <li><a href="../Comptabilite/index.html"><img src="../images\file-invoice-solid.svg" alt="factures" class="icone"><br><p>Comptabilité</p></a></li>
+          <li><a href="creer.html"><img src="../images\users-solid.svg" alt="clients" class="icone"><br><p>Clients</p></a></li>
+          <li><a href="../Horaires/index.html"><img src="../images\clock-regular.svg" alt="horaires" class="icone"><br><p>Horaires</p></a></li>
+          <li><a href="../Statistiques/index.html"><img src="../images\chart-line-solid.svg" alt="statistiques" class="icone"> <br><p>Statistiques</p></a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="container client">
+      <div class="row haut">
+        <div class="one columns centered">
+          <a class="retour" href="../index.html"><img src="../images/retour.png" alt="retour"></a>
+        </div>
+        <div class="ten columns centered">
+          <h1>Créer un compte fidélité</h1>
+        </div>
+      </div>
+      <form action="../index.html">
+      <div class="row info">
+        <h2>Informations personnelles</h2>
+        <div class="five columns civilite">
+          <label class="aligne block">Civilité</label>
+          <input type="radio" class=" blockaligne" name="civilite" id="homme" required>
+          <label class="block aligne" for="homme">M.</label>
+          <input type="radio" class=" blockaligne" name="civilite" id="femme">
+          <label class="block aligne" for="femme">Mme.</label>
+        </div>
+        <div class="five columns">
+          <label>Date de naissance</label><input type="date" name="" value="" class="u-full-width" required>
+        </div>
+        <div class="five columns">
+          <label>Nom</label><input type="text" name="" class="u-full-width" placeholder="Exemple : DROUAL" required>
+        </div>
+        <div class="five columns">
+          <label>Prénom</label><input type="text" name="" value="" class="u-full-width" placeholder="Exemple : Antoine" required>
+        </div>
+      </div>
+      <div class="row coordonnees">
+        <h2>Coordonnées</h2>
+        <div class="five columns">
+          <label>Téléphone fixe</label><input type="text" name="" value="" class="u-full-width" placeholder="Exemple : 0555000000">
+        </div>
+        <div class="five columns">
+          <label>Mail</label><input type="email" name="" value="" class="u-full-width" placeholder="Exemple : atzenai87@gmail.com" >
+        </div>
+        <div class="five columns">
+          <label>Téléphone portable</label><input type="text" name="" value="" class="u-full-width" placeholder="Exemple : 0695008600">
+        </div>
+      </div>
+      <div class="row localisation">
+        <h2>Localisation</h2>
+        <div class="ten columns">
+          <label>Adresse</label><input type="tel" name="" value="" class="u-full-width" placeholder="Exemple : 7 rue Léon Roby" required>
+          <label>Ville</label><input type="text" name="" value="" class="u-full-width" placeholder="Exemple : Limoges" required pattern="[A-Za-z]*">
+          <label>Code Postal</label><input type="text" name="" value="" class="u-full-width" placeholder="Exemple : 87000" required pattern="[0-9]{5}">
+          <label>Pays</label><input type="text" name="" value="" class="u-full-width" placeholder="Exemple : FRANCE" required pattern="[A-Za-z]*" >
+        </div>
+      </div>
+      <div class="row fidelite">
+        <h2>Enregistrer une carte de fidélité</h2>
+        <div class="ten columns">
+          <label>Numéro</label><input type="text" name="" value="" class="u-full-width" placeholder="Exemple : 89393198364690" required>
+        </div>
+        <div class="five columns">
+          <label>Date de souscription</label><input type="date" name="" value="" class="u-full-width" required>
+        </div>
+        <div class="five columns">
+          <label>Code magasin</label><input type="text" name="" value="001" class="u-full-width" required pattern="[0-9]{3}">
+        </div>
+      </div>
+      <div class="ten columns centered">
+        <input type="submit" class="button" value="Créer">
+      </div>
+    </form>
+    </div>
+  </body>
+</html>

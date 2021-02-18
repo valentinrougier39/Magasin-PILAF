@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="../css/skeleton.css">
+    <link rel="stylesheet" type="text/css" href="./css/style-stock.css">
+    <link rel="stylesheet" href="../css/style-menu.css">
+
+    <title>YAOURT BIO MYRTILLE</title>
+  </head>
+  <body>
+    <div class="container menubar">
+      <nav>
+        <ul>
+          <li><a href="../index.html"><img src="../Logo/logo_V3.jpg" alt="logoimg" class="logoimg"> </a></li>
+          <li><a href="../Fournisseurs/index.html"><img src="../images\truck-solid.svg" alt="fournisseurs" class="icone" fill=> <br><p>Fournisseurs</p></a></li>
+          <li><a href="index.html"><img src="../images\cubes-solid.svg" alt="articles" class="icone"> <br><p>Stock</p></a></li>
+          <li><a href="../Comptabilite/index.html"><img src="../images\file-invoice-solid.svg" alt="factures" class="icone"><br><p>Comptabilité</p></a></li>
+          <li><a href="../Client/creer.html"><img src="../images\users-solid.svg" alt="clients" class="icone"><br><p>Clients</p></a></li>
+          <li><a href="../Horaires/index.html"><img src="../images\clock-regular.svg" alt="horaires" class="icone"><br><p>Horaires</p></a></li>
+          <li><a href="../Statistiques/index.html"><img src="../images\chart-line-solid.svg" alt="statistiques" class="icone"> <br><p>Statistiques</p></a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="container liste" id="selection">
+      <div class="row">
+        <div class="one columns">
+          <a class="retour" href="afficherYaourtMyrtille.html"><img src="../images/retour.png" alt="retour"></a>
+        </div>
+        <div class="ten columns centered">
+          <h1>Modifier un produit</h1>
+        </div>
+      </div>
+      <div class="row centre">
+        <div class="centered">
+          <a class="button" href="#selection"><h5>Sélectionner un produit fournisseur</h5></a>
+        </div>
+        <div class="row cache centre">
+          <div class="row centre">
+            <div class="offset-by-one four columns">
+              <h5>Fournisseur</h5>
+            </div>
+            <div class="five columns">
+              <select class="fournisseur u-full-width" name="">
+                <option value="">LES PRES RIENT BIO</option>
+              </select>
+            </div>
+          </div>
+          <div class="row centre">
+            <div class="offset-by-one four columns">
+              <h5>Désignation</h5>
+            </div>
+            <div class="five columns">
+              <select class="fournisseur u-full-width" name="">
+                <option value="">LES 2 VACHES - YAOURT BIO MYRTILLE</option>
+              </select>
+            </div>
+          </div>
+        </div>
+        <form action="afficherYaourtMyrtille.html">
+        <div class="row centre">
+          <h5 class="eleven columns centered titre">Article</h5>
+          <div class="row centre">
+            <div class="offset-by-one four columns">
+              <h5>Fournisseur</h5>
+            </div>
+            <div class="five columns">
+              <input type="text" class="u-full-width" value="LES PRES RIENT BIO" >
+            </div>
+          </div>
+          <div class="row centre">
+            <div class="offset-by-one four columns">
+              <h5>Marque commerciale</h5>
+            </div>
+            <div class="five columns">
+              <input type="text" class="u-full-width" value="LES 2 VACHES" required>
+            </div>
+          </div>
+          <div class="row centre">
+            <div class="offset-by-one four columns">
+              <h5>Designation</h5>
+            </div>
+            <div class="five columns">
+              <input type="text" class="u-full-width" value="YAOURT BIO MYRTILLE" required>
+            </div>
+          </div>
+          <div class="row centre">
+            <div class="offset-by-one four columns">
+              <h5>EAN</h5>
+            </div>
+            <div class="five columns">
+              <input type="text" class="u-full-width" value="5423187496709" pattern="[0-9]{8}||[0-9]{13}" required>
+            </div>
+          </div>
+          <div class="row centre">
+            <div class="offset-by-one four columns">
+              <h5>Prix fournisseur HT</h5>
+            </div>
+            <div class="two columns">
+              <input type="text" class="u-full-width" placeholder=" Ex : 1.30 " value="0.99"required>
+            </div>
+            <h5>&nbsp €</h5>
+          </div>
+          <div class="row centre">
+            <div class="offset-by-one four columns">
+              <h5>Prix de vente HT</h5>
+            </div>
+            <div class="two columns">
+              <input type="text" class="u-full-width" placeholder=" Exemple : 1.99" value="1.59" required>
+            </div>
+            <h5>&nbsp € </h5>
+          </div>
+          <div class="row centre">
+            <div class="offset-by-one four columns">
+              <h5>Remise en %</h5>
+            </div>
+            <div class="two columns">
+              <input type="text" class="u-full-width" placeholder=" Exemple : 1.99" value="0" >
+            </div>
+            <h5>&nbsp %</h5>
+          </div>
+          <div class="row centre">
+            <div class="offset-by-one four columns">
+              <h5>Catégorie</h5>
+            </div>
+            <div class="five columns">
+              <select class="u-full-width" name="">
+                <option value="">Choisir une option de la liste</option>
+                <option value="">Boulangerie</option>
+                <option value="">Cave</option>
+                <option value="">Cosmétique</option>
+                <option selected="selected"value="">Crémerie</option>
+                <option value="">Epicerie Salée</option>
+                <option value="">Epicerie Sucrée</option>
+                <option value="">Fruits & Légumes</option>
+                <option value="">Hygiène</option>
+                <option value="">Poisson</option>
+                <option value="">Textile</option>    
+                <option value="">Viande</option>
+              </select>
+            </div>
+          </div>
+          <div class="row centre">
+            <div class="offset-by-one four columns">
+              <h5>Conditionnement</h5>
+            </div>
+            <div class="four columns">
+              <select class="" name="">
+                <option value="">Choisir un conditionnement</option>
+                <option value="">Unitaire</option>
+                <option selected="selected" value="">Lot</option>
+                <option value="">Boîte</option>
+                <option value="">Carton</option>
+              </select>
+            </div>
+            <h5 class="block"> de </h5>
+            <div class="block">
+              <input type="text" class="quantite" value="4" required >
+            </div>
+          </div>
+          <div class="row centre">
+            <div class="offset-by-one four columns">
+              <h5>Poids unitaire (g)</h5>
+            </div>
+            <div class="two columns">
+              <input type="text" class="u-full-width" value="115">
+            </div>
+          </div>
+          <div class="row centre">
+            <div class="offset-by-one four columns">
+              <h5>Stock actuel</h5>
+            </div>
+            <div class="two columns">
+              <input type="text" class="u-full-width" value="42">
+            </div>
+          </div>
+        </div>
+        <div class="row centered">
+          <input type="submit" class="button" value="Valider les modifications">
+        </div>
+      </div>
+    </form>
+    </div>
+  </body>
+</html>

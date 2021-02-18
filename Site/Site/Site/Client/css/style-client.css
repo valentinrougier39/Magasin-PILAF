@@ -1,0 +1,20 @@
+.client {
+	padding-left: 4em;
+}
+
+.client img {
+	width: 4em
+}
+
+.row {
+	padding-top: 2em;
+}
+
+.civilite {
+	padding-top: 1.5em;
+}
+
+.civilite label{
+	font-size: 1.2em;
+	padding-right: 1em
+}

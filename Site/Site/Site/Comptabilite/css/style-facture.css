@@ -1,0 +1,96 @@
+.consulterF, .consulterV, .paiement {
+  padding-left: 4em;
+}
+
+.commande .retour {
+  margin-left: -4em;
+}
+
+.commandes .retour {
+  margin-left: 4em;
+}
+
+.consulterF img, .consulterV img, .paiement img, .commande img, .commandes img {
+	width: 4em
+}
+
+.row {
+	padding-top: 2em;
+}
+
+.ligne, .chemin {
+  padding-top: 0;
+}
+
+th, td {
+  text-align: center;
+}
+
+.table {
+  padding: 0;
+  margin: 0;
+}
+
+
+img[class=next] {
+	width: 2em;
+	margin-left: 2em;
+  vertical-align: middle;
+}
+
+.cadre {
+  border: thin solid black;
+  padding: 1em;
+}
+
+.centre {
+  padding-left: 2em;
+}
+
+.petit {
+  width: 4em
+}
+
+.aligne {
+  margin-bottom: 0;
+  vertical-align: middle;
+}
+
+table * {
+  font-size: 0.95em;
+}
+
+.remise {
+  padding-top: 10%
+}
+
+.cadrer {
+  border: thin solid black
+}
+
+.boutons {
+  margin: 2em 0;
+}
+
+.commande .boutons a {
+  width: 30em;
+}
+
+.commandes a {
+  text-decoration: none;
+  color: inherit;
+  font-weight: bold;
+}
+
+.reference, .numero {
+  width: 4em
+}
+
+.expandable {
+  display: none;
+}
+
+#isexpanded:checked ~ p.expandable, #isexpanded:checked ~ * p.expandable {
+    display: block;
+		width: 100%;
+}

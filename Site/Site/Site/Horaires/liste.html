@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="../css/skeleton.css">
+    <link rel="stylesheet" type="text/css" href="css/style-horaires.css">
+    <link rel="stylesheet" href="../css/style-menu.css">
+    <title>Liste des horaires / Secretariat</title>
+  </head>
+  <body>
+    <div class="container menubar">
+      <nav>
+        <ul>
+          <li><a href="../index.html"><img src="../Logo/logo_V3.jpg" alt="logoimg" class="logoimg"> </a></li>
+          <li><a href="../Fournisseurs/index.html"><img src="../images\truck-solid.svg" alt="fournisseurs" class="icone" fill=> <br><p>Fournisseurs</p></a></li>
+          <li><a href="../Stock/index.html"><img src="../images\cubes-solid.svg" alt="articles" class="icone"> <br><p>Stock</p></a></li>
+          <li><a href="../Comptabilite/index.html"><img src="../images\file-invoice-solid.svg" alt="factures" class="icone"><br><p>Comptabilité</p></a></li>
+          <li><a href="../Client/creer.html"><img src="../images\users-solid.svg" alt="clients" class="icone"><br><p>Clients</p></a></li>
+          <li><a href="index.html"><img src="../images\clock-regular.svg" alt="horaires" class="icone"><br><p>Horaires</p></a></li>
+          <li><a href="../Statistiques/index.html"><img src="../images\chart-line-solid.svg" alt="statistiques" class="icone"> <br><p>Statistiques</p></a></li>
+        </ul>
+      </nav>
+      <div class="row">
+        <div class="chemin">
+          <a href="../index.html">Accueil</a> > <a href="index.html">Horaires</a>
+        </div>
+      </div>
+    </div>
+    <div class="container liste">
+      <div class="row haut">
+        <div class="twelve columns centered">
+          <h1>Liste des horaires</h1>
+        </div>
+      </div>
+      <div class="row">
+        <div class="twelve columns centered">
+          <h4 class="date">Date : </h4>
+          <input type="date" class="date" value="2020-02-19">
+          <img class="date" src="../images/calendar.png" alt="">
+        </div>
+      </div>
+      <div class="row">
+        <table class="u-full-width">
+          <thead>
+            <tr>
+              <th>Prénom</th>
+              <th>Nom</th>
+              <th>Poste</th>
+              <th>Plage horaire</th>
+              <th>Temps total</th>
+              <th>Modifier</th>
+              <th>Informations</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Patrick</td>
+              <td>Billet</td>
+              <td>Cadre Commercial</td>
+              <td>2</td>
+              <td>7:23</td>
+              <td><a href="saisieAdministration.html"><img src="../images/edit.png" alt="edit"></a></td>
+              <td><a href="info.html"><img src="../images/info.png" alt="edit"></a></td>
+            </tr>
+            <tr>
+              <td>Edouard</td>
+              <td>Melet</td>
+              <td>Gestionnaire</td>
+              <td>1</td>
+              <td>5:05</td>
+              <td><a href="saisieAdministrationMelet.html"><img src="../images/edit.png" alt="edit"></a></td>
+              <td><a href="infoMelet.html"><img src="../images/info.png" alt="edit"></a></td>
+            </tr>
+            <tr>
+              <td>Lola</td>
+              <td>Flotte</td>
+              <td>Secrétaire</td>
+              <td>2</td>
+              <td>8:32</td>
+              <td><a href="saisieAdministrationFlotte.html"><img src="../images/edit.png" alt="edit"></a></td>
+              <td><a href="infoFlotte.html"><img src="../images/info.png" alt="edit"></a></td>
+            </tr>
+          </tbody>
+        </table>
+        <div class="offset-by-ten one columns">
+          <a class="button next" href="#">1/2<img class="next" src="../images/next.png" alt="next"></a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

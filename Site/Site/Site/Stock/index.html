@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="../css/skeleton.css">
+    <link rel="stylesheet" type="text/css" href="./css/style-stock.css">
+    <link rel="stylesheet" href="../css/style-menu.css">
+
+    <title>Catalogue produits</title>
+  </head>
+  <body>
+    <div class="container menubar">
+      <nav>
+        <ul>
+          <li><a href="../index.html"><img src="../Logo/logo_V3.jpg" alt="logoimg" class="logoimg"> </a></li>
+          <li><a href="../Fournisseurs/index.html"><img src="../images\truck-solid.svg" alt="fournisseurs" class="icone" fill=> <br><p>Fournisseurs</p></a></li>
+          <li><a href="index.html"><img src="../images\cubes-solid.svg" alt="articles" class="icone"> <br><p>Stock</p></a></li>
+          <li><a href="../Comptabilite/index.html"><img src="../images\file-invoice-solid.svg" alt="factures" class="icone"><br><p>Comptabilité</p></a></li>
+          <li><a href="../Client/creer.html"><img src="../images\users-solid.svg" alt="clients" class="icone"><br><p>Clients</p></a></li>
+          <li><a href="../Horaires/index.html"><img src="../images\clock-regular.svg" alt="horaires" class="icone"><br><p>Horaires</p></a></li>
+          <li><a href="../Statistiques/index.html"><img src="../images\chart-line-solid.svg" alt="statistiques" class="icone"> <br><p>Statistiques</p></a></li>
+        </ul>
+      </nav>
+      <div class="row chemin">
+        <a href="../index.html">Accueil</a> > <a href="#">Stock</a>
+      </div>
+    </div>
+    <div class="container liste">
+      <div class="row">
+        <div class="twelve columns centered">
+          <h1>Liste des produits</h1>
+        </div>
+      </div>
+      <div class="row ">
+        <div class="centered twelve columns">
+          <div class="six columns centered tri">
+            <h4 class="block">Trier par</h4>
+            <select class="block" name="">
+              <option value="">Quantité décroissante</option>
+              <option value="">Quantité croissante</option>
+              <option value="">Ref 0-9</option>
+              <option value="">Ref 9-0</option>
+              <option value="">Marque A-Z</option>
+              <option value="">Marque Z-A</option>
+            </select>
+          </div>
+          <div class="six columns centered recherche">
+            <h4 class="block">Rechercher</h4>
+            <input class="block" type="search" placeholder="Exemple: MARTEAU">
+          </div>
+        </div>
+        <div class="centered twelve columns">
+          <a class="button" href="creer.html">Ajouter un produit</a>
+          <a class="button" href="../Comptabilite/commandesRedirIndexStock.html">Commandes en cours</a>
+        </div>
+      </div>
+      <div class="row table">
+        <table class="u-full-width ">
+          <thead>
+            <tr>
+              <th>Ref</th>
+              <th>Marque commerciale</th>
+              <th>Désignation</th>
+              <th>Quantité</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>5423187496549</td>
+              <td>LES 2 VACHES</td>
+              <td><a class="titre" href="afficherYaourtNature.html">YAOURT BIO BRASSE NATURE</a></td>
+              <td>55</td>
+            </tr>
+            <tr>
+              <td>5423187496709</td>
+              <td>LES 2 VACHES</td>
+              <td><a class="titre" href="afficherYaourtMyrtille.html">YAOURT BIO MYRTILLE</a></td>
+              <td>42</td>
+            </tr>
+            <tr>
+              <td>5423187496307</td>
+              <td>LES 2 VACHES</td>
+              <td><a class="titre" href="afficher.html">DESSERT BIO AU CHOCOLAT</a></td>
+              <td>30</td>
+            </tr>
+
+              <!--
+            <tr>
+              <th>NATURDIS</th>
+              <td>02 99 54 12 18</td>
+              <td>contact@naturdis.fr</td>
+            </tr>
+            <tr>
+              <th>BONNETERRE</th>
+              <td>01 49 78 25 00</td>
+              <td>contact@bonneterre.fr</td>
+            </tr>
+            <tr>
+              <th>PRONADIS</th>
+              <td>08 99 78 96 23</td>
+              <td>supportpro@pronadis.fr</td>
+            </tr>
+            <tr>
+              <th>RELAIS VERT</th>
+              <td>04 90 67 23 72</td>
+              <td>contact@vert.fr</td>
+            </tr>
+            <tr>
+              <th>PUR ALIMENT</th>
+              <td>03 69 11 11 13</td>
+              <td>support@puraliment.fr</td>
+            </tr>
+            <tr>
+              <th>PROBABIO</th>
+              <td>04 90 61 09 88</td>
+              <td>professionnel@naturabio.fr</td>
+            </tr>
+            <tr>
+              <th>VITAFRAIS</th>
+              <td>03 26 87 86 86</td>
+              <td>support@vitafrais.fr</td>
+            </tr>-->
+          </tbody>
+        </table>
+        <div class="offset-by-nine one columns">
+          <a class="button next" href="#">1/7<img class="next" src="../images/next.png" alt="next"></a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

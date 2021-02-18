@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="../css/skeleton.css">
+    <link rel="stylesheet" type="text/css" href="./css/style-fournisseurs.css">
+    <link rel="stylesheet" href="../css/style-menu.css">
+
+    <title>Créer un fournisseur</title>
+  </head>
+  <body>
+    <div class="container menubar">
+      <nav>
+        <ul>
+          <li><a href="../index.html"><img src="../Logo/logo_V3.jpg" alt="logoimg" class="logoimg"> </a></li>
+          <li><a href="index.html"><img src="../images\truck-solid.svg" alt="fournisseurs" class="icone" fill=> <br><p>Fournisseurs</p></a></li>
+          <li><a href="../Stock/index.html"><img src="../images\cubes-solid.svg" alt="articles" class="icone"> <br><p>Stock</p></a></li>
+          <li><a href="../Comptabilite/index.html"><img src="../images\file-invoice-solid.svg" alt="factures" class="icone"><br><p>Comptabilité</p></a></li>
+          <li><a href="../Client/creer.html"><img src="../images\users-solid.svg" alt="clients" class="icone"><br><p>Clients</p></a></li>
+          <li><a href="../Horaires/index.html"><img src="../images\clock-regular.svg" alt="horaires" class="icone"><br><p>Horaires</p></a></li>
+          <li><a href="../Statistiques/index.html"><img src="../images\chart-line-solid.svg" alt="statistiques" class="icone"> <br><p>Statistiques</p></a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="container fournisseur">
+      <div class="row haut">
+        <div class="row titre">
+          <div class="two columns">
+            <a class="retour" href="index.html"><img src="../images/retour.png" alt="retour"></a>
+          </div>
+          <div class="eight columns">
+            <h1>Créer un fournisseur</h1>
+          </div>
+        </div>
+        <form action="../index.html">
+        <div class="row">
+          <div class="one-third column logofournisseur">
+            <label for="file" class="logo">
+              <input id="file" type="file" name="logo" value="logo">
+              <div class="line1"></div>
+              <div class="line2"></div>
+              <p class="txtLogo">Logo</p>
+            </label>
+          </div>
+          <div class="seven columns labels">
+            <label>Nom</label><input class="u-full-width" type="text" name="" value="" placeholder="Exemple : LES PRES RIENT BIO" required>
+            <label>Site Web</label><input class="u-full-width" type="text" name="" value="" placeholder="Exemple : www.les2vaches.com" required>
+          </div>
+        </div>
+      </div>
+      <div class="row coordonnees">
+        <h2>Coordonnées</h2>
+        <div class="five columns">
+          <label>Téléphone</label><input class="u-full-width" type="tel" name="" value="" placeholder="Exemple : 0149485293" required pattern="[0-9]{10}">
+          <label>Mail</label><input class="u-full-width" type="email" name="" value="" placeholder="Exemple : contact@les2vaches.fr" required >
+        </div>
+        <div class="five columns">
+          <label>Fax</label><input class="u-full-width" type="text" name="" value="" placeholder="Exemple : 0149485293" required pattern="[0-9]{10}">
+          <label>N°SIREN</label><input class="u-full-width" type="text" name="" value="" placeholder="Exemple : 489872903" required pattern="[0-9]{3}[ \.\-]?[0-9]{3}[ \.\-]?[0-9]{3}">
+        </div>
+      </div>
+      <div class="row localisation">
+        <h2>Localisation</h2>
+        <div class="ten columns">
+          <label>Adresse</label><input class="u-full-width" type="text" name="" value="" placeholder="Exemple : 150 Boulevard Victor Hugo" required>
+          <label>Ville</label><input class="u-full-width" type="text" name="" value="" placeholder="Exemple : SAINT-OUEN" required pattern="[A-Za-z-]+">
+          <label>Code Postal</label><input class="u-full-width" type="text" name="" value="" placeholder="Exemple : 93400" required pattern="[0-9]{5}">
+          <label>Pays</label><input class="u-full-width" type="text" name="" value="" placeholder="Exemple : FRANCE" required pattern="[A-Za-z]*">
+        </div>
+      </div>
+      <div class="row contact">
+        <h2>Contact interne</h2>
+        <div class="five columns">
+          <label>Nom</label><input class="u-full-width" type="text" name="" value="" placeholder="Exemple : PAUL" >
+        </div>
+        <div class="five columns">
+          <label>Prénom</label><input class="u-full-width" type="text" name="" value="" placeholder="Exemple : François" >
+        </div>
+        <div class="ten columns">
+          <label>Fonction</label><input class="u-full-width" type="text" name="" value="" placeholder="Exemple : Commercial Danone">
+        </div>
+      </div>
+      <div class="row banque">
+        <h2>Banque</h2>
+        <div class="ten columns">
+          <label>Titulaire du compte</label><input class="u-full-width" type="text" name="" value="" placeholder="Exemple : LES PRES RIENT BIO" required >
+          <label>Nom de la Banque</label><input class="u-full-width" type="text" name="" value="" placeholder="Exemple : LCL" required >
+          <label>IBAN</label><input class="u-full-width" type="text" name="" value="" placeholder="Exemple : FR4612345678912345678912789" required pattern="[A-Z]{2}[0-9]{12,32}">
+          <label>BIC</label><input class="u-full-width" type="text" name="" value="" placeholder="Exemple : 10240187" required pattern="[0-9]{8}">
+        </div>
+      </div>
+      <div class="row commentaires">
+        <h2>Commentaires</h2>
+        <div class="ten columns">
+          <textarea name="text" class="u-full-width"></textarea>
+          <input type="submit" value="Creer" href="index.html">
+         <!--<a href="index.html"><input class="button" type="submit" value="Créer" ></a> -->
+        </div>
+      </div>
+    </div>
+  </form>
+  </body>
+</html>

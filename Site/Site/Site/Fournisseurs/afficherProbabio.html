@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="../css/skeleton.css">
+    <link rel="stylesheet" type="text/css" href="./css/style-fournisseurs.css">
+    <link rel="stylesheet" href="../css/style-menu.css">
+    <title>Fournisseur PROBABIO</title>
+  </head>
+  <body>
+    <div class="container menubar">
+      <nav>
+        <ul>
+          <li><a href="../index.html"><img src="../Logo/logo_V3.jpg" alt="logoimg" class="logoimg"> </a></li>
+          <li><a href="index.html"><img src="../images\truck-solid.svg" alt="fournisseurs" class="icone" fill=> <br><p>Fournisseurs</p></a></li>
+          <li><a href="../Stock/index.html"><img src="../images\cubes-solid.svg" alt="articles" class="icone"> <br><p>Stock</p></a></li>
+          <li><a href="../Comptabilite/index.html"><img src="../images\file-invoice-solid.svg" alt="factures" class="icone"><br><p>Comptabilité</p></a></li>
+          <li><a href="../Client/creer.html"><img src="../images\users-solid.svg" alt="clients" class="icone"><br><p>Clients</p></a></li>
+          <li><a href="../Horaires/index.html"><img src="../images\clock-regular.svg" alt="horaires" class="icone"><br><p>Horaires</p></a></li>
+          <li><a href="../Statistiques/index.html"><img src="../images\chart-line-solid.svg" alt="statistiques" class="icone"> <br><p>Statistiques</p></a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="container fournisseur">
+      <div class="row haut">
+        <div class="titre">
+          <div class="two columns">
+            <a class="retour" href="liste.html"><img src="../images/retour.png" alt="retour"></a>
+          </div>
+          <div class="eight columns">
+            <h1>Afficher un fournisseur</h1>
+          </div>
+          <div class="one columns">
+              <a class="edit" title="modifier" href="./modifierProbabio.html"><img src="../images/edit.png" alt="edit"></a>
+              <a class="catalogue" title="catalogue" href="#"><img src="../images/catalogue.png" alt="catalogue"></a>
+          </div>
+        </div>
+        <div class="row">
+          <div class="one-third column logofournisseur">
+            <img class="logo " src="../images/LogoFournisseur/Fournisseur_Probabio.png" alt="">
+          </div>
+          <div class="seven columns labels">
+            <label>Nom</label><input class="u-full-width" type="text" name="" value="PROBABIO" readonly>
+            <label>Site Web</label><input class="u-full-width" type="text" name="" value="www.probabio.fr" readonly>
+          </div>
+        </div>
+      </div>
+      <div class="row coordonnees">
+        <h2>Coordonnées</h2>
+        <div class="five columns">
+          <label>Téléphone</label><input class="u-full-width" type="tel" value="0490610988" readonly>
+          <label>Mail</label><input class="u-full-width" type="email" value="professionnel@probabio.fr" readonly>
+        </div>
+        <div class="five columns">
+          <label>Fax</label><input class="u-full-width" type="text" value="0490610989" readonly>
+          <label>N°SIREN</label><input class="u-full-width" type="text" value="398829762" readonly>
+        </div>
+      </div>
+      <div class="row localisation">
+        <h2>Localisation</h2>
+        <div class="ten columns">
+          <label>Adresse</label><input class="u-full-width" type="text" name="" value="Voie Rapide Avignon-Carpentras" readonly>
+          <label>Ville</label><input class="u-full-width" type="text" name="" value="MONTEUX" readonly>
+          <label>Code Postal</label><input class="u-full-width" type="text" name="" value="84170" readonly>
+          <label>Pays</label><input class="u-full-width" type="text" name="" value="FRANCE" readonly>
+        </div>
+      </div>
+      <div class="row contact">
+        <h2>Contact interne</h2>
+        <div class="five columns">
+          <label>Nom</label><input class="u-full-width" type="text" name="" value="DROUAL" readonly>
+        </div>
+        <div class="five columns">
+          <label>Prénom</label><input class="u-full-width" type="text" name="" value="Antoine" readonly>
+        </div>
+        <div class="ten columns">
+          <label>Fonction</label><input class="u-full-width" type="text" name="" value="Commercial" readonly>
+        </div>
+      </div>
+      <div class="row banque">
+        <h2>Banque</h2>
+        <div class="ten columns">
+          <label>Titulaire du compte</label><input class="u-full-width" type="text" name="" value="PROBABIO" readonly>
+          <label>Nom de la Banque</label><input class="u-full-width" type="text" name="" value="ALLIANZ" readonly>
+          <label>IBAN</label><input class="u-full-width" type="text" name="" value="FR4612345678912345678912789" readonly>
+          <label>BIC</label><input class="u-full-width" type="text" name="" value="ALLIFRPP" readonly>
+        </div>
+      </div>
+      <div class="row commentaires">
+        <h2>Commentaires</h2>
+        <div class="ten columns">
+          <textarea name="text" class="u-full-width" readonly></textarea>
+        </div>
+      </section>
+    </div>
+  </body>
+</html>

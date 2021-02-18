@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="../css/skeleton.css">
+    <link rel="stylesheet" type="text/css" href="css/style-horaires.css">
+    <link rel="stylesheet" href="../css/style-menu.css">
+    <title>Informations E. Melet</title>
+  </head>
+  <body>
+    <div class="container menubar">
+      <nav>
+        <ul>
+          <li><a href="../index.html"><img src="../Logo/logo_V3.jpg" alt="logoimg" class="logoimg"> </a></li>
+          <li><a href="../Fournisseurs/index.html"><img src="../images\truck-solid.svg" alt="fournisseurs" class="icone" fill=> <br><p>Fournisseurs</p></a></li>
+          <li><a href="../Stock/index.html"><img src="../images\cubes-solid.svg" alt="articles" class="icone"> <br><p>Stock</p></a></li>
+          <li><a href="../Comptabilite/index.html"><img src="../images\file-invoice-solid.svg" alt="factures" class="icone"><br><p>Comptabilité</p></a></li>
+          <li><a href="../Client/creer.html"><img src="../images\users-solid.svg" alt="clients" class="icone"><br><p>Clients</p></a></li>
+          <li><a href="index.html"><img src="../images\clock-regular.svg" alt="horaires" class="icone"><br><p>Horaires</p></a></li>
+          <li><a href="../Statistiques/index.html"><img src="../images\chart-line-solid.svg" alt="statistiques" class="icone"> <br><p>Statistiques</p></a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="container infos">
+      <div class="row">
+        <div class="two columns">
+          <a class="retour" href="info.html"><img src="../images/retour.png" alt="retour"></a>
+        </div>
+        <div class="eight columns centered">
+          <h1>Informations employé</h1>
+        </div>
+      </div>
+      <form action="infoMelet.html" method="POST">
+      <div class="container">
+        <div class="row">
+          <div class="six columns">
+            <label>Nom</label>
+            <input class="u-full-width" type="text" name="" value="MELET" required>
+          </div>
+          <div class="six columns">
+            <label>Prénom</label>
+            <input class="u-full-width" type="text" name="" value="Edouard" required>
+          </div>
+        </div>
+        <div class="row">
+          <div class="six columns">
+            <label>Poste</label>
+            <input class="u-full-width" type="text" name="" value="Gestionnaire" required>
+          </div>
+          <div class="six columns">
+            <label>N° de téléphone</label>
+            <input class="u-full-width" type="text" name="" value="0764487952" required pattern="[0-9]{10}">
+          </div>
+        </div>
+        <div class="row">
+          <div class="six columns">
+            <label>Date de naissance</label>
+            <input class="u-full-width" type="date" name="" value="1986-06-24" required>
+          </div>
+          <div class="six columns">
+            <label>Début de contrat</label>
+            <input class="u-full-width" type="date" name="" value="2016-06-24" required>
+          </div>
+        </div>
+        <div class="row localisation">
+          <h4></h4>
+          <div class="twelve columns">
+            <label>Adresse</label><input class="u-full-width" type="text" name="" value="156 Avenue Richard Paul" required>
+            <label>Ville</label><input class="u-full-width" type="text" name="" value="LIMOGES" required>
+            <label>Code Postal</label><input class="u-full-width" type="text" name="" value="87000" required pattern="[0-9]{5}">
+            <label>Pays</label><input class="u-full-width" type="text" name="" value="FRANCE" required>
+          </div>
+        </div>
+        <div class="row">
+          <h4></h4>
+          <div class="twelve columns">
+            <label>IBAN</label>
+            <input class="u-full-width" type="text" name="" value="FR4612345678912345678912789" required pattern="[A-Z]{2}[0-9]{12,32}">
+            <label>BIC</label>
+            <input class="u-full-width" type="text" name="" value="AXAAFRPP"  required pattern="[A-Z]{6}[A-Z0-9]{2,5}">
+          </div>
+        </div>
+        <div class="row">
+          <h4></h4>
+          <label>Informations complémentaires</label>
+          <textarea name="name" rows="8" class="u-full-width"></textarea>
+        </div>
+        <div class="centered">
+            <input type="submit" class="button" value="Valider les modifications">
+        </div>
+      </div>
+    </form>
+    </div>
+  </body>
+</html>

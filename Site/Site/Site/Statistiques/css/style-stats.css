@@ -1,0 +1,45 @@
+.sub-item-bottom {
+  height: 3em;
+  border-bottom: 2px solid black;
+}
+
+.ligne a {
+  color: black;
+  text-decoration: none;
+}
+
+.sub-item-top {
+  height: 3em;
+  border-top: 2px solid black;
+}
+
+.droite {
+  border-left: 2px solid black;
+}
+
+.gauche {
+  border-right: 2px solid black;
+}
+
+.menu-item-bis {
+  border: 2px solid black;
+  height: 15em;
+}
+
+.chiffre {
+  height: calc(9em - 2px);
+  padding-top: 1em
+}
+
+.haut {
+  padding-top: 1.5em;
+  height: 4em
+}
+
+.milieu {
+  font-weight: bold;
+}
+
+.milieu img {
+  height: 5em
+}

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="../css/skeleton.css">
+    <link rel="stylesheet" type="text/css" href="css/style-horaires.css">
+    <link rel="stylesheet" href="../css/style-menu.css">
+    <title>Horaires E. Melet</title>
+  </head>
+  <body>
+    <div class="container menubar">
+      <nav>
+        <ul>
+          <li><a href="../index.html"><img src="../Logo/logo_V3.jpg" alt="logoimg" class="logoimg"> </a></li>
+          <li><a href="../Fournisseurs/index.html"><img src="../images\truck-solid.svg" alt="fournisseurs" class="icone" fill=> <br><p>Fournisseurs</p></a></li>
+          <li><a href="../Stock/index.html"><img src="../images\cubes-solid.svg" alt="articles" class="icone"> <br><p>Stock</p></a></li>
+          <li><a href="../Comptabilite/index.html"><img src="../images\file-invoice-solid.svg" alt="factures" class="icone"><br><p>Comptabilité</p></a></li>
+          <li><a href="../Client/creer.html"><img src="../images\users-solid.svg" alt="clients" class="icone"><br><p>Clients</p></a></li>
+          <li><a href="index.html"><img src="../images\clock-regular.svg" alt="horaires" class="icone"><br><p>Horaires</p></a></li>
+          <li><a href="../Statistiques/index.html"><img src="../images\chart-line-solid.svg" alt="statistiques" class="icone"> <br><p>Statistiques</p></a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="container saisie" id="horaire">
+      <div class="row haut">
+        <div class="one columns centered">
+          <a class="retour" href="liste.html"><img src="../images/retour.png" alt="retour"></a>
+        </div>
+        <div class="ten columns centered">
+          <h1>Enregistrement des horaires</h1>
+        </div>
+      </div>
+      <form action="liste.html" method="POST">
+      <div class="row haut">
+        <div class="six columns centered">
+          <h5 class="date">Salarie : </h5>
+          <select class="salarie date" name="salarie">
+            <option disabled>Choisissez un employé</option>
+            <option value="salarie1" disabled>M. Patrick Billet / Cadre commercial</option>
+            <option value="salarie2" selected="selected">M. Edouard Melet / Gestionnaire</option>
+            <option value="salarie3" disabled>Mme Lola Flotte / Secrétaire</option>
+          </select>
+        </div>
+        <div class="five columns centered">
+          <h5 class="date">Date : </h5>
+          <input type="date" class="date" value="2020-02-19">
+          <img class="date" src="../images/calendar.png" alt="">
+        </div>
+      </div>
+      <div class="row">
+        <div class="twelve columns centered saisieheure">
+          <h4 class="offset-by-one lblheure total">Début</h4>
+          <input type="text" class="heure total" pattern="[0-9]{0,2}" value="08" required>
+          <h4 class="total">:</h4>
+          <input type="text" class="heure total" pattern="[0-9]{2}" value="00" required>
+          <h4 class="total lblfin">Fin</h4>
+          <input type="text" class="heure total" pattern="[0-9]{0,2}" value="13" required>
+          <h4 class="total">:</h4>
+          <input type="text" class="heure total" pattern="[0-9]{2}" value="05" required>
+        </div>
+      </div>
+      
+      <div class="row cache">
+        <div class="twelve columns centered saisieheure">
+          <h4 class="offset-by-one lblheure total">Début</h4>
+          <input type="text" class="heure total" pattern="[0-9]{0,2}">
+          <h4 class="total">:</h4>
+          <input type="text" class="heure total" pattern="[0-9]{2}">
+          <h4 class="total lblfin">Fin</h4>
+          <input type="text" class="heure total" pattern="[0-9]{0,2}">
+          <h4 class="total">:</h4>
+          <input type="text" class="heure total" pattern="[0-9]{2}">
+        </div>
+      </div>
+      <div class="bouton centered">
+        <a class="button visible date" href="#horaire"><h5 class="buttonPlus visible date">Ajouter une plage horaire</h5></a>
+      </div>
+      <div class="twelve columns centered">
+          <h4 class="total">Total</h4>
+          <input type="text" class="heure total" placeholder="?"  value="05"readonly>
+          <h4 class="total">:</h4>
+          <input type="text" class="heure total" placeholder="?" value="05"readonly>
+      </div>
+      <div class="centered">
+        <input type="submit" class="button" value="Valider">
+      </div>
+    </form>
+    </div>
+  </body>
+</html>

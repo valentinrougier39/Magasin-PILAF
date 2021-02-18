@@ -1,0 +1,30 @@
+.caisse img {
+  width: 10em;
+  padding: 1em 0em;
+}
+
+.caisse .droite {
+  padding-top: 3em
+}
+
+.caisse .button {
+  height: 7em;
+  padding: 1.5em 0em;
+}
+
+.caisse .two-row {
+  padding: 2.2em 0;
+  line-height: normal;
+}
+
+.espace-top {
+  margin-top: 5.6em
+}
+
+.caisse .hauteur {
+  height: 35em
+}
+
+.hauteur-milieu {
+  height: 10em
+}

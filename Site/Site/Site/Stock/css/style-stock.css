@@ -1,0 +1,42 @@
+.liste img, .afficher img  {
+  width: 4em;
+}
+
+.liste, .afficher {
+  padding: 0em 4em;
+}
+
+.liste .tri select, .liste .recherche input{
+  width: 50%;
+  margin-left: 1em;
+}
+
+th, td {
+  text-align: center;
+}
+
+.liste a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.cache {
+  display: none;
+}
+
+#selection:target .cache {
+  display: block;
+}
+
+.centre {
+  padding-left: 2em;
+}
+
+.titre {
+  font-weight: bold;
+}
+
+.quantite {
+  margin-left: 0.5em;
+  width: 3em
+}
