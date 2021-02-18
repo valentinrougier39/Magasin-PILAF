@@ -1,8 +1,8 @@
 # Magasin-PILAF
 Projet réalisé au cours du second semestre de DUT Informatique. 
 Ce projet a été élaboré tout d'abord dans le module de gestion de projet avant d'être poursuivi et finalisé lors de notre projet tutoré de première année.
-
-Projet réalisé en collaboration avec Antoine DROUAL, Jean LAURENT, Thomas MARTY 
+C'est donc un projet plus "administatif" que les autres car il nous a permis de découvrir les étapes, la mise en place d'un projet. 
+Projet réalisé en collaboration avec ![Antoine Droual](https://github.com/Anmaceis), ![Jean Laurent](https://github.com/jeanlrnt), ![Thomas MARTY]() 
 
 ### Présentation 
 
