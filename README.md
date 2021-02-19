@@ -20,7 +20,14 @@ Ce projet consistait à créer un petit système d'information pour un magasin B
 
 ![Apercu des produits](produits.png)
 
+## Outils & langages
 
+#### Projet développé en : 
+- HTML
+- CSS
+
+#### Avec : 
+- PhpStorm
 
 
 
