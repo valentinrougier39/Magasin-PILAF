@@ -1,4 +1,4 @@
-# Magasin-PILAF
+# Magasin PILAF
 Projet réalisé au cours du second semestre de DUT Informatique. 
 Ce projet a été élaboré tout d'abord dans le module de gestion de projet avant d'être poursuivi et finalisé lors de notre projet tutoré de première année.
 C'est donc un projet plus "administatif" que les autres car il nous a permis de découvrir les étapes, la mise en place d'un projet. 
